@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0815FF42-2547-4C59-97B1-3356B185EDC1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmartBankasi.UI</RootNamespace>
+    <AssemblyName>SmartBankasi.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.CodeParser.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v18.2.UI, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v18.2.Core, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v18.2.Core, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v18.2.Core, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v18.2.Core, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v18.2.Core, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v18.2.UI, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v18.2.Extensions, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v18.2.Wizard, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v18.2.Core, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v18.2.Extensions, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v18.2, Version=18.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frm_BireyselMusteriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_BireyselMusteriler.Designer.cs">
+      <DependentUpon>Frm_BireyselMusteriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Faturalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Faturalar.Designer.cs">
+      <DependentUpon>Frm_Faturalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Giderler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Giderler.Designer.cs">
+      <DependentUpon>Frm_Giderler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Gorevler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Gorevler.Designer.cs">
+      <DependentUpon>Frm_Gorevler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Kampanyalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Kampanyalar.Designer.cs">
+      <DependentUpon>Frm_Kampanyalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Kullanicilar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Kullanicilar.Designer.cs">
+      <DependentUpon>Frm_Kullanicilar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_KurumsalMusteriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_KurumsalMusteriler.Designer.cs">
+      <DependentUpon>Frm_KurumsalMusteriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Login.Designer.cs">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Menu.Designer.cs">
+      <DependentUpon>Frm_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Odemeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Odemeler.Designer.cs">
+      <DependentUpon>Frm_Odemeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ParaBirimleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ParaBirimleri.Designer.cs">
+      <DependentUpon>Frm_ParaBirimleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Personeller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Personeller.Designer.cs">
+      <DependentUpon>Frm_Personeller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Raporlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Raporlar.Designer.cs">
+      <DependentUpon>Frm_Raporlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Subeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Subeler.Designer.cs">
+      <DependentUpon>Frm_Subeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Taksitlendirme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Taksitlendirme.Designer.cs">
+      <DependentUpon>Frm_Taksitlendirme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Urunler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Urunler.Designer.cs">
+      <DependentUpon>Frm_Urunler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Yetkiler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Yetkiler.Designer.cs">
+      <DependentUpon>Frm_Yetkiler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_BireyselMusteriler.resx">
+      <DependentUpon>Frm_BireyselMusteriler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Faturalar.resx">
+      <DependentUpon>Frm_Faturalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Giderler.resx">
+      <DependentUpon>Frm_Giderler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Gorevler.resx">
+      <DependentUpon>Frm_Gorevler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Kampanyalar.resx">
+      <DependentUpon>Frm_Kampanyalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Kullanicilar.resx">
+      <DependentUpon>Frm_Kullanicilar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_KurumsalMusteriler.resx">
+      <DependentUpon>Frm_KurumsalMusteriler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Login.resx">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Menu.resx">
+      <DependentUpon>Frm_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Odemeler.resx">
+      <DependentUpon>Frm_Odemeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ParaBirimleri.resx">
+      <DependentUpon>Frm_ParaBirimleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Personeller.resx">
+      <DependentUpon>Frm_Personeller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Raporlar.resx">
+      <DependentUpon>Frm_Raporlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Subeler.resx">
+      <DependentUpon>Frm_Subeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Taksitlendirme.resx">
+      <DependentUpon>Frm_Taksitlendirme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Urunler.resx">
+      <DependentUpon>Frm_Urunler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Yetkiler.resx">
+      <DependentUpon>Frm_Yetkiler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SmartBankasi.BLL\SmartBankasi.BLL.csproj">
+      <Project>{8510b99e-15d4-491d-8cbd-a765768d2e92}</Project>
+      <Name>SmartBankasi.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartBankasi.DLL\SmartBankasi.DLL.csproj">
+      <Project>{0CC1083D-9B37-49FD-8953-88F3DCBACEF3}</Project>
+      <Name>SmartBankasi.DLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginphoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bankaicon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

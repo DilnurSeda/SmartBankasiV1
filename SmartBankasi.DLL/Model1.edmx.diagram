@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f75a83b935544d15ba132858231597dd" Name="Diagram1" ZoomLevel="63">
+        <EntityTypeShape EntityType="SmartBankDBModel.BireyselMusteriler" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.BireyselMusteriUrunleri" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.Faturalar" Width="1.5" PointX="2.75" PointY="3.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.Gelirler" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.Giderler" Width="1.5" PointX="4.75" PointY="4.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.Gorevler" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.ilceler" Width="1.5" PointX="6.75" PointY="3.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.iller" Width="1.5" PointX="6.75" PointY="6.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.Kampanyalar" Width="1.5" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.Kullanicilar" Width="1.5" PointX="8.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.KurumsalMusteriler" Width="1.5" PointX="2.75" PointY="8.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.KurumsalMusteriUrunleri" Width="1.5" PointX="8.75" PointY="4.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.KurumsalYetkililer" Width="1.5" PointX="8.75" PointY="7.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.MusteriTurleri" Width="1.5" PointX="4.75" PointY="9.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.Odemeler" Width="1.5" PointX="10.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.OdemePlanlari" Width="1.5" PointX="10.75" PointY="3.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.OdemeTurleri" Width="1.5" PointX="10.75" PointY="10.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.ParaBirimleri" Width="1.5" PointX="6.75" PointY="11.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.PersonelDetay" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.PersonelGorevYerleri" Width="1.5" PointX="0.75" PointY="12.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.Personeller" Width="1.5" PointX="2.75" PointY="12.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.PersonelMaaslari" Width="1.5" PointX="12.75" PointY="3.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.SubeGiderTurleri" Width="1.5" PointX="12.75" PointY="6.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.Subeler" Width="1.5" PointX="12.75" PointY="9.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="13.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.UrunDetaylari" Width="1.5" PointX="10.75" PointY="13.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.Urunler" Width="1.5" PointX="12.75" PointY="13.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.UrunTurleri" Width="1.5" PointX="14.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SmartBankDBModel.Yetkiler" Width="1.5" PointX="14.75" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
